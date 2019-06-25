@@ -5,7 +5,7 @@ import sulaiman.coderswag.Model.Product
 
 object DataService {
 
-    val elements = listOf(
+    val categories = listOf(
         Category("SHIRTS", "shirtimage"),
         Category("HOODIES", "hoodieimage"),
         Category("HATS", "hatimage"),
@@ -33,5 +33,4 @@ object DataService {
         Product("Devslopes Hustle", "£25", "shirt4"),
         Product("Devslopes Hustle Red", "£25", "shirt5")
         )
-
 }
